@@ -13,5 +13,6 @@ namespace Regression
         public double Height { get; set; }
         public double Depth { get; set; }
         public Color Color { get; set; }
+        public string Mark { get; set; } // Для пометок "Срочно", "Хрупоке" или "Тяжелое"
     }
 }
